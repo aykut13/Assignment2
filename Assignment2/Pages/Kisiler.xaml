@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HW2.Pages.Kisiler" Title="Kişiler">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Margin="5,5,5,5" Spacing="5">
+            <TableView Intent="Settings">
+                <TableRoot>
+                    <TableSection>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5" >
+
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" />
+                                <Label Text="Dr.Öğr. Üyesi Ahmet ARSLAN" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/yhoscan.jpg" />
+                                <Label Text="Prof.Dr. Yaşar HOŞCAN" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/serkangunal.jpg" />
+                                <Label Text="Doç.Dr. Serkan GÜNAL" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                                
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/ckaleli.jpg" />
+                                <Label Text="Doç.Dr. Cihan KALELİ" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                            </StackLayout>
+                        </ViewCell>
+
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/akuysal.jpg" />
+                                <Label Text="Dr.Öğr. Üyesi Alper Kürşat UYSAL" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                                
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/abilge.png" />
+                                <Label Text="Dr.Öğr. Üyesi Alper BİLGE" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/sevcany.jpg" />
+                                <Label Text="Dr.Öğr. Üyesi Sevcan YILMAZ GÜNDÜZ" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                                
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/byurekli.jpg" />
+                                <Label Text="Araş.Gör.Dr. Burcu YÜREKLİ YILMAZEL" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                            </StackLayout>
+                        </ViewCell>
+
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/oozsen.jpg" />
+                                <Label Text="Öğr.Gör. Özgür ÖZŞEN" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                                
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/ekacmaz.jpg" />
+                                <Label Text="Öğr.Gör. Emre KAÇMAZ" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/roaltug.jpeg" />
+                                <Label Text="Öğr.Gör. Reha Oğuz ALTUĞ" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                                
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/ayargic.jpg" />
+                                <Label Text="Araş.Gör. Alper YARGIÇ" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/etdemirkiran.jpg" />
+                                <Label Text="Araş.Gör. Emin Talip DEMİRKIRAN" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                                
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/rasimcekik.jpg" />
+                                <Label Text="Araş.Gör. Rasim ÇEKİK" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Label Text="GSM: 555-555-555" FontSize="Micro"
+                              HorizontalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                <Button Text="CALL"></Button>
+                            </StackLayout>
+
+                        </ViewCell>
+
+
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

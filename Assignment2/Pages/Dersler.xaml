@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HW2.Pages.Dersler" Title="Dersler">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,0,0">
+            <Label Text="Bu Dönem Yürütülen Lisans ve Lisansüstü Ders Bilgileri" FontSize="Small" TextColor="DarkRed"></Label>
+            <Label FontSize="Micro">
+                BIL519 - İleri Algoritma Analizi
+BIL551 - İleri Veri Tabanı Yönetim Sistemleri
+BIL561 - Bulanık Sinir Ağları
+BIL567 - Öneri Sistemlerine Giriş
+BIM101 - Bilgisayar Programlama I
+BIM203 - Mantık Tasarımı
+BIM207 - Bilgisayar Programlama III
+BIM209 - Yazılım Tasarlama ve Geliştirme Prensipleri
+BIM213 - Veri Yapıları ve Algoritmalar
+BIM302 - Bilgisayar Ağları
+BIM303 - Mikrobilgisayarlar
+BIM305 - Bilgisayar Organizasyonu
+BIM306 - İşletim Sistemleri
+BIM308 - Web Sunucu Programlama
+BIM309 - Yapay Us
+BIM313 - İleri Programlama Teknikleri
+BIM314 - Hesaplama Kuramı
+BIM405 - Proje Yönetimi
+BIM423 - Yazılım Mühendisliği
+BIM437 - Bilgisayar Mühendisliği Tasarımları
+BIM439 - Veritabanı Yönetim Sistemleri Uygulamaları
+BIM451 - MVC ile Web Sunucu Programlama
+BIM466 - Bulanık Mantık
+BIM478 - Yönetim Bilişim Sistemleri
+BIM485 - Bilgisayar Bilimlerinde Araştırma I - L (Alper Bilge)
+BIM488 - Örüntü Tanımaya Giriş
+BIM490 - Bilgi Erişim Sistemleri
+BIM492 - Tasarım Örüntüleri
+BIM493 - Mobil Programlama I
+İST252 - Olasılık ve İstatistik
+MAT249 - Lineer Cebir ve Diferansiyel Denklemler
+MAT806 - Matematik II</Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

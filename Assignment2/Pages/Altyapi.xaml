@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HW2.Pages.Altyapi" Title="Altyapı" >
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <TableView Intent="Settings">
+                <TableRoot>
+                    <TableSection>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <StackLayout Orientation="Vertical" Spacing="5">
+                                    <Label Text="Derslik-B1" FontSize="Small"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                    <Label Text="Kapasite: 36" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                </StackLayout>
+
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Class_B1_icon.jpg" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+
+
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <StackLayout Orientation="Vertical" Spacing="5">
+                                    <Label Text="Derslik-B2" FontSize="Small"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                    <Label Text="Kapasite: 15" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                </StackLayout>
+
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Class_B2_icon.jpg" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <StackLayout Orientation="Vertical" Spacing="5">
+                                    <Label Text="Derslik-B3" FontSize="Small"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                    <Label Text="Kapasite: 18" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                </StackLayout>
+
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Class_B3_icon.jpg" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <StackLayout Orientation="Vertical" Spacing="5">
+                                    <Label Text="Derslik-B4" FontSize="Small"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                    <Label Text="Kapasite: 24" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                </StackLayout>
+
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Class_B4_icon.jpg" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <StackLayout Orientation="Vertical" Spacing="5">
+                                    <Label Text="Derslik-B5" FontSize="Small"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                    <Label Text="Kapasite: 15" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                </StackLayout>
+
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Class_B5_icon.jpg" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <StackLayout Orientation="Vertical" Spacing="5">
+                                    <Label Text="Derslik-B6" FontSize="Small"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                    <Label Text="Kapasite: 24" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                </StackLayout>
+
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Class_B6_icon.jpg" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <StackLayout Orientation="Vertical" Spacing="5">
+                                    <Label Text="Derslik-B7" FontSize="Small"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                    <Label Text="Kapasite: 54" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                </StackLayout>
+
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Class_B7_icon.jpg" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <StackLayout Orientation="Vertical" Spacing="5">
+                                    <Label Text="Lab-01" FontSize="Small"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="StartAndExpand"
+                              TextColor="#503026" />
+                                    <Label Text="Kapasite: 61 PC" FontSize="Micro"
+                              HorizontalOptions="StartAndExpand"
+                                       VerticalOptions="EndAndExpand"
+                              TextColor="#503026" />
+                                </StackLayout>
+
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Lab_PC1_icon.jpg" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HW2.Pages.Hakkinda" Title="Hakkında">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Margin="5,5,5,5">
+            <Label Text="Bölüm Hakkında" FontSize="Small" TextColor="DarkRed"></Label>
+            <Label FormattedText="Ülkemizde sanayinin ve teknolojinin gelişmesine bağlı olarak bilgisayar teknolojisi konusunda deneyimli ve nitelikli teknik personele gereksinim her geçen gün daha da artmaktadır. Eskişehir Teknik Üniversitesi Bilgisayar Mühendisliği Bölümü, ülkemizin bu anlamda ihtiyacı olan güncel bilgi birikimine sahip bilgisayar mühendisleri yetiştirmek amacıyla 1993 yılında kurulmuş olup 2000-2001 öğretim yılında lisans düzeyinde eğitime başlamıştır. Bölümümüz, bu tarihten beri kaliteli eğitim anlayışından ödün vermeden, hem akademik kadrosunu hem de altyapısını bilgisayar teknolojilerindeki değişimlere ayak uyduracak şekilde geliştirmekte; bilgili, bilinçli, donanımlı ve etik değerlere önem veren Bilgisayar Mühendisleri yetiştirmektedir. Lisans programının yanında yüksek lisans ve doktora eğitimi de verilmektedir." FontSize="Micro" ></Label>
+
+            <Label Text="Misyon" FontSize="Small" TextColor="DarkRed"></Label>
+            <Label Text="Özgörevimiz, çağdaş ve evrensel nitelikte bilgi üreten, bu bilgiyi toplumun faydası için kullanan, temel değerlerimizi benimsemiş, mesleklerinde lider konumda olan mühendisler yetiştirmektir. " FontSize="Micro"></Label>
+
+            <Label Text="Vizyon" FontSize="Small" TextColor="DarkRed"></Label>
+            <Label Text="Vizyonumuz, mezunlarımızın ve öğretim elemanlarımızın geliştirdiği nitelikli projeler ve toplumsal katkılarıyla gerek yurtiçi gerekse yurtdışındaki Bilgisayar Mühendisliği Bölümleri arasında önde gelenlerden biri olmaktır. " FontSize="Micro"></Label>
+
+            <Label Text="Temel Değerler" FontSize="Small" TextColor="DarkRed"></Label>
+            <Label FontSize="Micro">
+                Bilimsellik
+İnsan Odaklılık
+Yenilikçilik
+Mükemmeliyetçilik
+Kararlılık
+Duyarlılık
+İş Etiğine Bağlılık
+Yaşam Boyu Öğrenme Bilinci
+            </Label>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
